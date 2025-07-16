@@ -1,0 +1,182 @@
+{
+  "id": "687822ec0381bd6207c1d176",
+  "lessonNumber": 5,
+  "title": "Hands-on Experience: DeepCode",
+  "status": "complete",
+  "assignment": {
+    "title": "Code Review with DeepCode",
+    "objective": "Apply DeepCode in a coding project to identify and fix potential issues.",
+    "expectedCapabilities": [
+      "Integrate DeepCode with an IDE",
+      "Conduct a code review with DeepCode",
+      "Enhance code quality based on DeepCode's suggestions"
+    ],
+    "submissionInstructions": "Submit a report detailing the changes made based on DeepCode's analysis and include before-and-after code snippets.",
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "title": "Identify and Fix Issues",
+        "description": "Identify coding issues through DeepCode suggestions and fix at least three issues in your selected project.",
+        "codeExample": "// Original Code\nint divide(int a, int b) { return a / b; }\n// Improved Code\ndivide(int a, int b) { return b != 0 ? a / b : 0; }",
+        "_id": "6878230c0381bd6207c1d1b1"
+      }
+    ],
+    "instructions": [
+      {
+        "partNumber": 1,
+        "steps": [
+          {
+            "taskNumber": 1,
+            "title": "Setup DeepCode",
+            "description": "Install and set up DeepCode in your preferred IDE following the previous steps.",
+            "codeExample": "N/A",
+            "_id": "6878230c0381bd6207c1d1ac"
+          },
+          {
+            "taskNumber": 2,
+            "title": "Select a Project for Review",
+            "description": "Choose a coding project from your existing work to analyze with DeepCode.",
+            "codeExample": "N/A",
+            "_id": "6878230c0381bd6207c1d1ad"
+          },
+          {
+            "taskNumber": 3,
+            "title": "Run DeepCode",
+            "description": "Run DeepCode to perform a code analysis and review the suggestions provided.",
+            "codeExample": "N/A",
+            "_id": "6878230c0381bd6207c1d1ae"
+          }
+        ],
+        "_id": "6878230c0381bd6207c1d1ab"
+      },
+      {
+        "partNumber": 2,
+        "steps": [
+          {
+            "taskNumber": 1,
+            "title": "Implement Code Improvements",
+            "description": "Apply the suggested improvements from DeepCode to your project and document the changes.",
+            "codeExample": "N/A",
+            "_id": "6878230c0381bd6207c1d1b0"
+          }
+        ],
+        "_id": "6878230c0381bd6207c1d1af"
+      }
+    ],
+    "checklist": [
+      "DeepCode Installed and Configured",
+      "Code Review Conducted",
+      "Issues Identified and Resolved"
+    ],
+    "checkForUnderstanding": [
+      {
+        "question": "What does DeepCode analyze?",
+        "options": [
+          "Project architecture",
+          "Code comments",
+          "Source code for bugs and improvements"
+        ],
+        "answer": "Source code for bugs and improvements",
+        "_id": "6878230c0381bd6207c1d1a8"
+      },
+      {
+        "question": "How do you apply DeepCode’s suggestions?",
+        "options": [
+          "Directly change the code as suggested",
+          "Discuss with a team before applying",
+          "Consider suggestions and manually implement"
+        ],
+        "answer": "Consider suggestions and manually implement",
+        "_id": "6878230c0381bd6207c1d1a9"
+      },
+      {
+        "question": "Why use DeepCode?",
+        "options": [
+          "To compile code",
+          "To indent code",
+          "To enhance code reliability and cleanliness"
+        ],
+        "answer": "To enhance code reliability and cleanliness",
+        "_id": "6878230c0381bd6207c1d1aa"
+      }
+    ]
+  },
+  "subsections": [
+    {
+      "subsectionOrder": 1,
+      "title": "Introduction to DeepCode",
+      "content": "DeepCode is an AI-powered code review tool that uses machine learning to find bugs and suggest improvements in your code. It integrates seamlessly with popular IDEs, providing real-time feedback and suggestions as you code.",
+      "videoUrl": "http://video.com/introDeepCode",
+      "codeExamples": [],
+      "externalLinks": [
+        "https://www.deepcode.ai/"
+      ],
+      "quizzes": [
+        {
+          "question": "What is DeepCode's primary function?",
+          "options": [
+            "Compiling code",
+            "Finding bugs and suggesting improvements",
+            "Managing project versions"
+          ],
+          "answer": "Finding bugs and suggesting improvements",
+          "_id": "6878230c0381bd6207c1d1a3"
+        }
+      ],
+      "_id": "6878230c0381bd6207c1d1a2"
+    },
+    {
+      "subsectionOrder": 2,
+      "title": "Integrating DeepCode with an IDE",
+      "content": "To utilize DeepCode, you first need to integrate it with your preferred IDE. This subsection will guide you through the process of installing and setting up DeepCode in popular IDEs like IntelliJ IDEA and Visual Studio Code.",
+      "videoUrl": "http://video.com/setupDeepCodeIDE",
+      "codeExamples": [],
+      "externalLinks": [
+        "https://code.visualstudio.com/docs/editor/extension-marketplace"
+      ],
+      "quizzes": [
+        {
+          "question": "Which IDEs can DeepCode be integrated with?",
+          "options": [
+            "Only IntelliJ IDEA",
+            "Only Visual Studio Code",
+            "IntelliJ IDEA, Visual Studio Code, and more"
+          ],
+          "answer": "IntelliJ IDEA, Visual Studio Code, and more",
+          "_id": "6878230c0381bd6207c1d1a5"
+        }
+      ],
+      "_id": "6878230c0381bd6207c1d1a4"
+    },
+    {
+      "subsectionOrder": 3,
+      "title": "Using DeepCode for Code Review",
+      "content": "Once DeepCode is set up in your IDE, you can start using it for code reviews. This subsection covers how to run a code review session, interpret DeepCode suggestions, and make your code more robust.",
+      "videoUrl": "http://video.com/usingDeepCode",
+      "codeExamples": [
+        "int sum(int a, int b) { return a + b; } // Sample code for review"
+      ],
+      "externalLinks": [],
+      "quizzes": [
+        {
+          "question": "What type of feedback does DeepCode provide?",
+          "options": [
+            "Design patterns",
+            "Syntax errors only",
+            "Potential bugs and code improvements"
+          ],
+          "answer": "Potential bugs and code improvements",
+          "_id": "6878230c0381bd6207c1d1a7"
+        }
+      ],
+      "_id": "6878230c0381bd6207c1d1a6"
+    }
+  ],
+  "supplementalVideos": [
+    "http://video.com/deepCodeAdvancedUsage"
+  ],
+  "references": [
+    "https://docs.deepcode.ai",
+    "https://intellij-support.jetbrains.com/hc/en-us/articles/207241135-Plug-ins"
+  ]
+}
