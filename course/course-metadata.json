@@ -21,14 +21,23 @@
     ]
   },
   "createdBy": {
+    "isDeleted": false,
+    "deletedAt": null,
     "_id": "6800a73454438765dcfd5e07",
     "name": "Tammam Alwafai",
+    "email": "tammam.wafai@gmail.com",
     "image": "https://avatars.githubusercontent.com/u/47179662?v=4",
-    "githubUsername": "1992tw"
+    "githubUsername": "1992tw",
+    "emailVerified": null,
+    "createdAt": "2025-04-17T07:01:08.468Z",
+    "isAdmin": true,
+    "courseCount": 103,
+    "lastLogin": "2025-07-08T18:03:49.196Z"
   },
   "contributors": [],
   "status": "pending",
   "originalGithubUrl": null,
+  "remoteGithubUrl": "https://github.com/testo-org-101/ai-smart-coding-ides",
   "createdAt": "2025-07-16T22:08:44.451Z",
-  "updatedAt": "2025-07-16T22:08:44.451Z"
+  "updatedAt": "2025-07-16T22:10:02.828Z"
 }

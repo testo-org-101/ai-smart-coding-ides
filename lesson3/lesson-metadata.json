@@ -2,14 +2,181 @@
   "id": "687822ec0381bd6207c1d174",
   "lessonNumber": 3,
   "title": "Hands-on Experience: Kite",
-  "status": "pending",
+  "status": "complete",
   "assignment": {
-    "title": "Assignment will be generated",
-    "objective": "Objective will be provided when lesson is generated",
-    "expectedCapabilities": [],
-    "instructions": [],
-    "tasks": [],
-    "submissionInstructions": "Submission instructions will be provided when lesson is generated"
+    "title": "Explore Kite IDE Integration",
+    "objective": "To gain familiarity with setting up and using Kite for AI-assisted coding enhancements.",
+    "expectedCapabilities": [
+      "Install Kite in a chosen IDE",
+      "Use Kite's features to enhance code quality and speed"
+    ],
+    "submissionInstructions": "Submit screenshots showcasing Kite's code suggestions and your completed code.",
+    "tasks": [
+      {
+        "taskNumber": 1,
+        "title": "Write a Program Using Kite",
+        "description": "Complete a simple task using Kite to aid in code completions and understand its benefits.",
+        "codeExample": "function add(a, b) {\n    return a + b;\n}\n\nvar result = add(5, 10);",
+        "_id": "687824cf0381bd6207c1d1e3"
+      }
+    ],
+    "instructions": [
+      {
+        "partNumber": 1,
+        "steps": [
+          {
+            "taskNumber": 1,
+            "title": "Download and Install Kite",
+            "description": "Visit the Kite website, download the installer, and complete the installation process for your preferred code editor.",
+            "codeExample": "N/A",
+            "_id": "687824cf0381bd6207c1d1e0"
+          },
+          {
+            "taskNumber": 2,
+            "title": "Configure Kite for Your IDE",
+            "description": "Integrate Kite with your preferred IDE (e.g., VSCode) and ensure it is running smoothly.",
+            "codeExample": "N/A",
+            "_id": "687824cf0381bd6207c1d1e1"
+          },
+          {
+            "taskNumber": 3,
+            "title": "Write a Simple Program Using Kite",
+            "description": "Create a simple function in your chosen programming language. Use Kite to assist with variable declarations and function completion.",
+            "codeExample": "def greet_user(name):\n    return f'Hello, {name}!'\n\nname = 'Alice'\ngreet_user(name)",
+            "_id": "687824cf0381bd6207c1d1e2"
+          }
+        ],
+        "_id": "687824cf0381bd6207c1d1df"
+      }
+    ],
+    "checklist": [
+      "Kite Installed",
+      "Editor Configured",
+      "Code Completion Tested",
+      "Program Verified"
+    ],
+    "checkForUnderstanding": [
+      {
+        "question": "What is the benefit of using Kite?",
+        "options": [
+          "Enhancing code accuracy with minimal keystrokes",
+          "Creating GUI applications",
+          "Debugging massive projects directly"
+        ],
+        "answer": "Enhancing code accuracy with minimal keystrokes",
+        "_id": "687824cf0381bd6207c1d1dd"
+      },
+      {
+        "question": "How does Kite suggest completions?",
+        "options": [
+          "Predicts based on known bugs",
+          "Analyzes typing patterns and context",
+          "Provides random suggestions"
+        ],
+        "answer": "Analyzes typing patterns and context",
+        "_id": "687824cf0381bd6207c1d1de"
+      }
+    ]
   },
-  "subsections": []
+  "subsections": [
+    {
+      "subsectionOrder": 1,
+      "title": "Introduction to Kite",
+      "content": "Kite is an AI-powered coding assistant that integrates with your code editor to help you write code faster. It uses machine learning models to recognize patterns in your code, predicting the next word you’re going to type, and providing intelligent code completions for various languages.",
+      "videoUrl": "",
+      "codeExamples": [],
+      "externalLinks": [
+        "https://www.kite.com/"
+      ],
+      "quizzes": [
+        {
+          "question": "What is Kite primarily used for?",
+          "options": [
+            "Project management",
+            "Code predictions and completions",
+            "Debugging programs"
+          ],
+          "answer": "Code predictions and completions",
+          "_id": "687824cf0381bd6207c1d1d6"
+        }
+      ],
+      "_id": "687824cf0381bd6207c1d1d5"
+    },
+    {
+      "subsectionOrder": 2,
+      "title": "Installing Kite",
+      "content": "Kite can be installed on various platforms and supports popular IDEs like Atom, VSCode, PyCharm, and Sublime Text. You can download the installer from the official Kite website and follow the installation guide for your specific editor.",
+      "videoUrl": "",
+      "codeExamples": [],
+      "externalLinks": [
+        "https://help.kite.com/article/60-installing-the-kite-plugin-in-your-code-editor"
+      ],
+      "quizzes": [
+        {
+          "question": "Which editors does Kite integrate with?",
+          "options": [
+            "Microsoft Word",
+            "VSCode",
+            "Adobe Photoshop"
+          ],
+          "answer": "VSCode",
+          "_id": "687824cf0381bd6207c1d1d8"
+        }
+      ],
+      "_id": "687824cf0381bd6207c1d1d7"
+    },
+    {
+      "subsectionOrder": 3,
+      "title": "Using Kite for Code Completions",
+      "content": "Once Kite is set up, it runs in the background and provides suggestions as you code. It can autocomplete entire lines or give suggestions for method names, variables, and more based on your coding history and context.",
+      "videoUrl": "",
+      "codeExamples": [
+        "def calculate_area(radius):\n    pi = 3.14\n    area = pi * (radius ** 2)\n    return area"
+      ],
+      "externalLinks": [],
+      "quizzes": [
+        {
+          "question": "How does Kite enhance coding productivity?",
+          "options": [
+            "By providing syntax highlighting",
+            "By suggesting and autocompleting code",
+            "By creating user interfaces"
+          ],
+          "answer": "By suggesting and autocompleting code",
+          "_id": "687824cf0381bd6207c1d1da"
+        }
+      ],
+      "_id": "687824cf0381bd6207c1d1d9"
+    },
+    {
+      "subsectionOrder": 4,
+      "title": "Kite Programming Features",
+      "content": "Kite provides several features like function signatures, documentation pop-ups, and error notification to help improve your coding efficiency and understanding of the code. It also integrates learning resources for programming.",
+      "videoUrl": "",
+      "codeExamples": [],
+      "externalLinks": [
+        "https://www.kite.com/integrations/"
+      ],
+      "quizzes": [
+        {
+          "question": "What kind of additional learning resources does Kite provide?",
+          "options": [
+            "Programming courses",
+            "Code documentation",
+            "Graphic designing tutorials"
+          ],
+          "answer": "Code documentation",
+          "_id": "687824cf0381bd6207c1d1dc"
+        }
+      ],
+      "_id": "687824cf0381bd6207c1d1db"
+    }
+  ],
+  "supplementalVideos": [
+    "http://video.com/kiteOverview"
+  ],
+  "references": [
+    "https://www.kite.com/",
+    "https://help.kite.com/article/60-installing-the-kite-plugin-in-your-code-editor"
+  ]
 }
