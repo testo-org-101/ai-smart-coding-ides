@@ -34,7 +34,11 @@
     "courseCount": 103,
     "lastLogin": "2025-07-08T18:03:49.196Z"
   },
-  "contributors": [],
+  "contributors": [
+    "6875412897c1eb14a4924dc6",
+    "6864667b4b3a739e573c0e1d",
+    "67fe9daf6a09b19bad9ee515"
+  ],
   "status": "pending",
   "originalGithubUrl": null,
   "remoteGithubUrl": "https://github.com/testo-org-101/ai-smart-coding-ides",
