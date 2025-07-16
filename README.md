@@ -41,7 +41,9 @@ You should submit both the written code and the application it produces, as well
 
 ## Contributors
 
-Course contributors will be listed here.
+- undefined
+- undefined
+- undefined
 
 ---
 
