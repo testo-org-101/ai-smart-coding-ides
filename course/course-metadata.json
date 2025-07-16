@@ -1,0 +1,34 @@
+{
+  "id": "687822ec0381bd6207c1d16c",
+  "title": "AI Smart Coding IDEs",
+  "description": "This course provides an in-depth study into AI-powered smart coding integrated development environments (IDEs). Learn about the AI-assisted coding, the progression and benefits of AI in coding and the hands-on experience on AI-powered smart coding IDEs",
+  "learningObjectives": [
+    "Understand the concept of AI-assisted coding",
+    "Learn various AI-powered smart coding IDEs",
+    "Hands-on experience with various AI-tools in coding",
+    "Develop and implement a small project using AI-powered IDE"
+  ],
+  "finalProjectDetails": {
+    "overview": "Typically, you will develop a small project using any of the studied AI-powered smart coding IDEs",
+    "planningResources": [
+      "AI-powered IDEs: Kite, Codota, Deepcode",
+      "Text editor",
+      "Documentation tools"
+    ],
+    "submissionInstructions": "You should submit both the written code and the application it produces, as well as your process documentation.",
+    "requirements": [
+      ""
+    ]
+  },
+  "createdBy": {
+    "_id": "6800a73454438765dcfd5e07",
+    "name": "Tammam Alwafai",
+    "image": "https://avatars.githubusercontent.com/u/47179662?v=4",
+    "githubUsername": "1992tw"
+  },
+  "contributors": [],
+  "status": "pending",
+  "originalGithubUrl": null,
+  "createdAt": "2025-07-16T22:08:44.451Z",
+  "updatedAt": "2025-07-16T22:08:44.451Z"
+}
